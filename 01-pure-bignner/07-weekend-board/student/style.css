@@ -1,0 +1,16 @@
+/* CHALLENGE 03 — simple tables and basic CSS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #DFF3F7;
+  color: #244651;
+  margin: 0;
+  padding: 20px;
+}
+.board { background-color: white; max-width: 770px; margin: 0 auto; padding: 20px; }
+img { width: 100%; }
+table { width: 100%; border-collapse: collapse; }
+/* TODO: Style the title, table header, cells, striped rows and yellow reminder */
+
+@media (max-width:600px) {
+  
+}

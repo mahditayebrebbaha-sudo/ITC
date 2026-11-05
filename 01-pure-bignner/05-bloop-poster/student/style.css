@@ -1,0 +1,32 @@
+/* CHALLENGE 01 — start here! */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ede6ff;
+  color: #443C61;
+  text-align: center;
+  /* TODO: Add margin and padding */
+  margin: 30px;
+  padding: 20px;
+  
+}
+.poster {
+  border: #443c61;
+  background-color: white;
+  /* TODO: width/max-width, margin, padding, border, border-radius */
+  align-items: center;
+  width: 250px; max-width:100%;
+  padding: 80px;
+  margin: auto;
+  border: 15px;
+  border-radius: 10%;
+}
+img { width: 250px; max-width: 100%; }
+/* TODO: Style the eyebrow, h1, text, fun fact and link */
+
+.colored {
+  color: #8b62db;
+}
+
+@media (max-width:600px) {
+  
+}

@@ -1,0 +1,60 @@
+/* CHALLENGE 04 — slightly harder, but still only basic CSS */
+body {
+  background-color: #E6F0DC;
+  color: #264737;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 25px 12px;
+}
+.shop { max-width: 1030px; margin: 0 auto; }
+.plant { background-color: white; border: 2px solid #BDD2B7; margin: 15px; padding: 12px; }
+.plant img { width: 100%; }
+/* TODO: use display: inline-block and width to place 3 cards side-by-side. */
+article {
+  display: inline-block;
+  border-radius: 20px;
+  margin: 100px;
+  width: 280px;
+  height: 400px;
+}
+
+.plus {
+  text-align: left;
+}
+
+p {
+  color: #708b62;
+}
+
+h2 {
+  text-align: left;
+}
+
+a {
+  color: aliceblue;
+  background-color: #315d45;
+  padding: 12px 70px;
+  border-radius: 10px;
+}
+
+.price {
+  color: #315d45;
+  text-align: left;
+  font-size: 24Px;
+}
+
+.colored {
+  color: #8bac7a;
+}
+
+.slogan {
+  background-color: #fff5cb;
+  height: 30px;
+}
+/* TODO: style headings, prices, links and cards. */
+/* BONUS: Add @media (max-width: 660px) to stack cards on phones. */
+
+@media (max-width:600px) {
+  
+}

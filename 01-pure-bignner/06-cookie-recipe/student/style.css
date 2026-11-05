@@ -1,0 +1,36 @@
+/* CHALLENGE 02 — basic CSS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFEBD3;
+  color: #513829;
+  margin: 0;
+  padding: 20px;
+}
+.recipe {
+  background-color: white;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+img { width: 100%; }
+/* TODO: Style h1, h2, lists, info bar, tip and footer */
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.color {
+  color: #e09b75;
+}
+
+.top-note {
+  color: #e09b75;
+}
+
+.info {
+  background-color: #f9eacd;
+  text-align: center;
+}
+
+@media (max-width:600px) {
+  
+}
